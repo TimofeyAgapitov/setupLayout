@@ -30,6 +30,7 @@ export const path = {
     html: `${srcFolder}/**/*.html`,
     images: `${srcFolder}/img/**/*.{jpg,jpeg,svg,png,gif,ico,webp}`,
     assets: `${srcFolder}/assets/**/*.*`,
+    svgsprite: `${srcFolder}/svg/**/*.svg`,
   },
   clean: buildFolder,
   buildFolder: buildFolder,

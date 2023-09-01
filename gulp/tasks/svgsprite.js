@@ -28,9 +28,9 @@ export const svgsprite = () => {
     //   },
     // },
     mode: {
-      stack: {
-        sprite: `../icons/sprite.svg`,
-        example: true,
+      symbol: {
+        dest: '.',
+        sprite: 'sprite.svg',
       },
     },
   };
