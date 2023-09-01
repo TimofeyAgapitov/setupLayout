@@ -38,7 +38,7 @@ const fonts = gulp.series(otfTottf, ttfTowoff, fontsStyle);
 // Параллельное выполнение
 const maintasks = gulp.series(
   fonts,
-  gulp.parallel(copy, html, scss, js, images)
+  gulp.parallel(copy, html, scss, js, images, svgsprite)
 );
 // Построение сценариев выполнения задач
 const dev = gulp.series(reset, maintasks, gulp.parallel(watcher, server));
